@@ -202,7 +202,7 @@ export default function JiabaoKlinikFaceClassification() {
                       disabled={isUploading}
                       className="bg-primary hover:bg-primary/90"
                     >
-                      {isUploading ? "Menganalisis Jenis Kulit..." : "Analisis Jenis Kulit"()}
+                      {isUploading ? "Menganalisis Jenis Kulit..." : "Analisis Jenis Kulit"}
                     </Button>
                   </div>
                 </div>
@@ -253,7 +253,8 @@ export default function JiabaoKlinikFaceClassification() {
 
                   <div className="p-4 bg-muted rounded-lg">
                     <p className="text-sm text-muted-foreground">
-                      <strong>Catatan:</strong> Analisis selesai! Terima kasih telah memilih Jiabao Klinik sebagai mitra kesehatan anda. Layanan terbaik selalu menjadi prioritas kami.
+                      <strong>Catatan:</strong> Analisis selesai! Terima kasih telah memilih Jiabao Klinik sebagai mitra
+                      kesehatan anda. Layanan terbaik selalu menjadi prioritas kami.
                     </p>
                   </div>
                 </div>
@@ -271,8 +272,8 @@ export default function JiabaoKlinikFaceClassification() {
                 <div>
                   <h4 className="font-medium text-foreground mb-2">Algoritma</h4>
                   <p className="text-muted-foreground">
-                    Menggunakan Algoritma Random Forest Classifier dengan akurasi tinggi untuk klasifikasi jenis kulit wajah (kering, normal,
-                    berminyak).
+                    Menggunakan Algoritma Random Forest Classifier dengan akurasi tinggi untuk klasifikasi jenis kulit
+                    wajah (kering, normal, berminyak).
                   </p>
                 </div>
                 <div>
